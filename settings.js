@@ -27,7 +27,7 @@ global.botname = "𝐌𝐲𝐚𝐨𝐧𝐢𝐜ᵇᵒᵗ-𝐌𝐝ོ" //namabot k
 global.ownername= "︎ᴹᴿ᭄ 𝔸𝕟𝕕𝕙𝕪𝕔𝕒𝔾𝕒𝕟𝕫ོ ×፝֟͜×" //nama kalian
 global.myweb ="https://instagram.com/andhycarsrofficial?igshid=YmMyMTA2M2Y=" //bebas asal jan hapus
 global.youtube = "https://youtube.com/channel/UCtt_8qM9i8x83BY_U8oozOg" //bebas asal jan hapus
-global.github = "https://github.com/biribiri" //bebas
+global.github = "https://github.com/andhyca-offc" //bebas
 global.email = "sampahsampah531@gmail.com" //bebas
 global.region = "Jepang" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone wib
