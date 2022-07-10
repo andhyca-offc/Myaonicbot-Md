@@ -589,7 +589,7 @@ I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat Wi
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Good ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu AndhycaBotz-Md :*
+*📚 List-Menu MyaonicBotz-Md :*
 
 ╭─❒ 「 𝔹𝕠𝕥𝕫 𝕀𝕟𝕗𝕠 」 
 │• ${prefix}owner
