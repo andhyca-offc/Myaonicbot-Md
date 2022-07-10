@@ -582,7 +582,7 @@ exports.notNum = (q) => {
     return `「❗」 "${q}", 𝗡𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿𝘀`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`(⊃｡•́‿•̀｡)⊃\nHi Sis ${pushname} 👋 Good ${salam} , 
+	return`ฅ^•ﻌ•^ฅ\nHi Sis ${pushname} 👋 Good ${salam} , 
 I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat With The Owner If You Find A Bug, If Your Chat Is Proven To Be Just Playing Games, Then Botz Will Block and Banned You ⚠︎\n\n♥︎^･ᴗ･^♡ Thank You ♡^･ᴗ･^♥︎
 `
 }
