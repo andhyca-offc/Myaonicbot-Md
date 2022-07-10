@@ -583,7 +583,7 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`ฅ^•ﻌ•^ฅ\nHi Sis ${pushname} 👋 Good ${salam} , 
-I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat With The Owner If You Find A Bug, If Your Chat Is Proven To Be Just Playing Games, Then Botz Will Block and Banned You ⚠︎\n\n♡^･ᴗ･^♡ Thank You ♡^･ᴗ･^♡
+I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat With The Owner If You Find A Bug, If Your Chat Is Proven To Be Just Playing Games, Then Botz Will Block and Banned You ⚠︎\n\n♥︎^･ᴗ･^♡ Thank You ♡^･ᴗ･^♥︎
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
@@ -2197,18 +2197,18 @@ return`╭─❒ 「 Random Cewe 」
 }
 
 exports.tqto = () =>{
-	return`╭─❒ 「 TqTo 」 
-├ My God
-├ My Parents
-├ Fatih A.
-├ Ferdi
-├ DikaArdnt
-├ Mhankbarbar
-├ Nurutomo
-├ Rashid
-├ ZeeoneOfc
-├ Penyedia Module
-├ And All Support
+	return`╭─❒ 「 𝕋𝕙𝕒𝕟𝕜𝕤 𝕋𝕠 」 
+├ 𝙰𝚕𝚕𝚊𝚑 𝚂𝚆𝚃. 💕
+├ 𝙼𝚢 𝙾𝚛𝚝𝚞
+├ 𝚆𝚑𝚊𝚝𝚜𝙰𝚙𝚙
+├ 𝚃𝚎𝚛𝚖𝚞𝚡
+├ 𝙼𝚃 𝙼𝚊𝚗𝚊𝚐𝚎𝚛
+├ 𝙾𝚛𝚊𝚗𝚐-𝙾𝚛𝚊𝚗𝚐 𝚈𝚊𝚗𝚐 𝙱𝚎𝚛𝚍𝚘𝚗𝚊𝚜𝚒
+├ 𝙼𝚢 𝚄𝚜𝚎𝚛 𝙱𝚘𝚝𝚣
+├ 𝙿𝚊𝚛𝚊 𝙿𝚎𝚗𝚍𝚞𝚔𝚞𝚗𝚐
+├ 𝙸𝚗𝚍𝚘𝚜𝚊𝚝
+├ 𝙿𝚎𝚗𝚢𝚎𝚍𝚒𝚊 𝙼𝚘𝚍𝚞𝚕𝚎
+├ 𝙰𝚗𝚍 𝙰𝚕𝚕 𝚂𝚞𝚙𝚙𝚘𝚛𝚝
 ╰❒
 `
 }
