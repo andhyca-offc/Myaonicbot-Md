@@ -163,31 +163,31 @@ exports.OffNsfw = () => {
     return `The nsfw feature has not been activated`
 }
 exports.CoverBanLol = (prefix, command) => {
-    return `Exp : ${prefix + command} nama|heroes\nUsage: ${prefix + command} zeeone|jinx7`
+    return `Exp : ${prefix + command} nama|heroes\nUsage: ${prefix + command} andhyca|jinx7`
 }
 exports.coverbannerlol = (style) => {
     return `*The Heroes You Entered are Wrong*\n\n_Here's the list of true heroes, Total_ *${style}* _heroes_\n\n`
 }
 exports.pubglogomaker = (prefix, command) => {
-    return `Exp : ${prefix + command} nama|style\nUsage: ${prefix + command} zeeone|women`
+    return `Exp : ${prefix + command} nama|style\nUsage: ${prefix + command} andhyca|women`
 }
 exports.pubglogomaker_ = (style) => {
     return `*The style you entered is wrong*\n\n_Here's a list of the correct styles, Total_ *${style}* _style_\n\n`
 }
 exports.colorfulpubg = (prefix, command) => {
-    return `Exp : ${prefix + command} nama|color\nUsage: ${prefix + command} zeeone|gold`
+    return `Exp : ${prefix + command} nama|color\nUsage: ${prefix + command} andhyca|gold`
 }
 exports.colorfulpubg_ = (style) => {
     return `*The color you entered is wrong*\n\n_Here's a list of the correct colors, Total_ *${style}* _color_\n\n`
 }
 exports.astronotspace = (prefix, command) => {
-    return `Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} zeeone|anubis`
+    return `Ex: ${prefix + command} nama|style\nUsage: ${prefix + command} andhyca|anubis`
 }
 exports.wallpaperaov = (prefix, command) => {
-    return `Ex: ${prefix + command} nama|heroes\nUsage: ${prefix + command} zeeone|allain`
+    return `Ex: ${prefix + command} nama|heroes\nUsage: ${prefix + command} andhyca|allain`
 }
 exports.maketeamlogo = (style, style2, prefix, command) => {
-    return `Ex: ${prefix + command} nama|${style}\nUsage: ${prefix + command} zeeone|${style2}`
+    return `Ex: ${prefix + command} nama|${style}\nUsage: ${prefix + command} andhyca|${style2}`
 }
 
 exports.MaketeamlogoT = (a, b, c, d, e, f, g, h) => {
@@ -582,14 +582,17 @@ exports.notNum = (q) => {
     return `「❗」 "${q}", 𝗡𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿𝘀`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`ฅ^•ﻌ•^ฅ\nHi Sis ${pushname} 👋 Good ${salam} , 
+	return`(⊃｡•́‿•̀｡)⊃\nHi Sis ${pushname} 👋 Good ${salam} , 
 I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat With The Owner If You Find A Bug, If Your Chat Is Proven To Be Just Playing Games, Then Botz Will Block and Banned You ⚠︎\n\n♥︎^･ᴗ･^♡ Thank You ♡^･ᴗ･^♥︎
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Good ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu MyaonicBotz-Md :*
+*📚 List-Menu Myaonicᵇᵒᵗᶻ-Md :*
+
+𝗣𝗲𝘁𝘂𝗻𝗷𝘂𝗸
+<Ⓞ︎> Berarti Features Tidak Diaktifkan Oleh Owner
 
 ╭─❒ 「 𝔹𝕠𝕥𝕫 𝕀𝕟𝕗𝕠 」 
 │• ${prefix}owner
@@ -599,7 +602,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │• ${prefix}runtime
 │• ${prefix}botstatus
 │• ${prefix}donate
-│• ${prefix}artisymbol
 ╰❒
 
 
@@ -1598,7 +1600,6 @@ exports.info = (prefix) =>{
 │• ${prefix}runtime
 │• ${prefix}botstatus
 │• ${prefix}donate
-│• ${prefix}artisymbol
 ╰❒
 `}
 
