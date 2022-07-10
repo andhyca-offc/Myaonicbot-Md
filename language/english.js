@@ -354,43 +354,43 @@ exports.Dellist__ = (key) => {
     return `List response with key *${key}* not in database!`
 }
 exports.DellistDone = (key) => {
-    return `Successfully delete list message with key *${key}*`
+    return `𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆 𝗗𝗲𝗹𝗲𝘁𝗲 𝗟𝗶𝘀𝘁 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗪𝗶𝘁𝗵 𝗞𝗲𝘆 _${key}_`
 }
 exports.ListUp = (key) => {
-    return `Sorry, the key *${key}* is not yet registered in this group`
+    return `𝗦𝗼𝗿𝗿𝘆, 𝗧𝗵𝗲 𝗞𝗲𝘆 _${key}_ 𝗜𝘀 𝗡𝗼𝘁 𝗬𝗲𝘁 𝗥𝗲𝗴𝗶𝘀𝘁𝗲𝗿𝗲𝗱 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽`
 }
 exports.UpList = (key) => {
     return `Successfully update list message with key : *${args1}*`
 }
 exports.Anonymous = (pushname, prefix) => {
-    return `Hi ${pushname} Welcome to Anonymous Chat\n\nType ${prefix}start to find your Chat Friend, or you can press the Search button below`
+    return `𝗛𝗶 ${pushname} 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀 𝗖𝗵𝗮𝗿\n\n𝗧𝘆𝗽𝗲 ${prefix}start 𝗧𝗼 𝗙𝗶𝗻𝗱 𝗬𝗼𝘂𝗿 𝗖𝗵𝗮𝘁 𝗙𝗿𝗶𝗲𝗻𝗱, 𝗢𝗿 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗣𝗿𝗲𝘀𝘀 𝗧𝗵𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗕𝘂𝘁𝘁𝗼𝗻 𝗕𝗲𝗹𝗼𝘄`
 }
 exports.Anon = () => {
-    return `Find Friends Chat`
+    return `𝗙𝗶𝗻𝗱 𝗙𝗿𝗶𝗲𝗻𝗱𝘀 𝗖𝗵𝗮𝘁`
 }
 exports.StopAnon = () => {
-    return `You are not in an anonymous session, press the button to find a partner `
+    return `𝗬𝗼𝘂 𝗔𝗿𝗲 𝗡𝗼𝘁 𝗜𝗻 𝗔𝗻 𝗔𝗻𝗼𝗻𝘆𝗺𝗼𝘂𝘀 𝗦𝗲𝘀𝘀𝗶𝗼𝗻, 𝗣𝗿𝗲𝘀𝘀 𝗧𝗵𝗲 𝗕𝘂𝘁𝘁𝗼𝗻 𝗧𝗼 𝗙𝗶𝗻𝗱 𝗔 𝗣𝗮𝗿𝘁𝗻𝗲𝗿 `
 }
 exports.AnonNew = () => {
-    return `Find New Friends`
+    return `𝗙𝗶𝗻𝗱 𝗡𝗲𝘄 𝗙𝗿𝗶𝗲𝗻𝗱𝘀`
 }
 exports.AnonDahStop = () => {
-    return `✅ Successfully stopped chat`
+    return `「✅」 𝗦𝘂𝗰𝗰𝘀𝗲𝘀𝘀 𝗦𝘁𝗼𝗽𝗲𝗱 𝗖𝗵𝗮𝘁`
 }
 exports.StopAnonByFren = () => {
-    return `⚠️ This chat session has been terminated by your chat friend`
+    return `「⚠️」 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗛𝗮𝘀 𝗕𝗲𝗲𝗻 𝗧𝗲𝗿𝗺𝗶𝗻𝗮𝘁𝗲𝗱 𝗕𝘆 𝗬𝗼𝘂𝗿 𝗖𝗵𝗮𝘁 𝗙𝗿𝗶𝗲𝗻𝗱`
 }
 exports.AnonOn = () => {
-    return `️ You are still in a chat session with a partner!`
+    return `️ 𝗬𝗼𝘂 𝗔𝗿𝗲 𝗦𝘁𝗶𝗹𝗹 𝗜𝗻 𝗔 𝗖𝗵𝗮𝘁 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 𝗪𝗶𝘁𝗵 𝗔 𝗣𝗮𝗿𝘁𝗻𝗲𝗿𝘁!`
 }
 exports.AnonFind = (prefix) => {
     return `_Partner Found 🐼_\n${prefix}skip -- _find a new partner_\n${prefix}stop -- _stop this dialog_`
 }
 exports.AnonSearch = () => {
-    return `🔎 Please wait looking for chat friends`
+    return `「🔎」 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗟𝗼𝗼𝗸𝗶𝗻𝗴 𝗙𝗼𝗿 𝗖𝗵𝗮𝘁 𝗙𝗿𝗶𝗲𝗻𝗱`
 }
 exports.NoAnon = () => {
-    return `⚠️ You've never started a chat!`
+    return `「⚠️」 𝗬𝗼𝘂'𝘃𝗲 𝗡𝗲𝘃𝗲𝗿 𝗦𝘁𝗮𝗿𝘁𝗲𝗱 𝗔 𝗖𝗵𝗮𝘁`
 }
 
 exports.AllFitur = () => {
@@ -481,7 +481,7 @@ exports.SumberBot = () => {
     return `\n𝑆𝑜𝑢𝑟𝑐𝑒 𝐶𝑜𝑑𝑒 𝐹𝑜𝑟 𝑊𝑖𝑡ℎ 𝐺𝑟𝑜𝑢𝑝 𝐵𝑜𝑡𝑧`
 }
 exports.Tqnya = () => {
-    return `\n_Who contributed to this bot_`
+    return `\n𝑇𝑜 𝐶𝑜𝑛𝑡𝑟𝑖𝑏𝑢𝑡𝑒𝑑`
 }
 exports.SetAh = () => {
     return `Do you want a set menu?`
@@ -496,7 +496,7 @@ exports.KickAh = (gc) => {
 
 /////////
 exports.private = () =>{
-	return`The feature can only be used in private chat`
+	return`「❕」 𝗧𝗵𝗲 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 𝗖𝗮𝗻 𝗢𝗻𝗹𝘆 𝗕𝗲 𝗨𝘀𝗲𝗱 𝗜𝗻 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗖𝗵𝗮𝘁`
 	}
 exports.wait = () => {
     return `「⏳」 𝗣𝗹𝗲𝗮𝘀𝗲 𝗪𝗮𝗶𝘁 𝗔 𝗠𝗼𝗺𝗲𝗻𝘁`
@@ -512,42 +512,42 @@ exports.erorLink = () => {
     return `「⚠️」 𝗧𝗵𝗲 𝗟𝗶𝗻𝗸 𝗜𝘀 𝗘𝗿𝗼𝗿𝗿`
 }
 exports.media = () => {
-    return `Please select the media you want to download`
+    return `「❕」 𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗹𝗲𝗰𝘁 𝗧𝗵𝗲 𝗠𝗲𝗱𝗶𝗮 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱`
 }
 exports.replyImg = (prefix, command) => {
-    return `Send/Reply Photo With Caption ${prefix + command}`
+    return `「❕」 𝗦𝗲𝗻𝗱/𝗥𝗲𝗽𝗹𝘆 𝗣𝗵𝗼𝘁𝗼 𝗪𝗶𝘁𝗵 𝗖𝗮𝗽𝘁𝗶𝗼𝗻 ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Incorrect format Please check how to use at *${prefix}allmenu*.`
+    return `「❎」 𝗜𝗻𝗰𝗼𝗿𝗿𝗲𝗰𝘁 𝗙𝗼𝗿𝗺𝗮𝘁 𝗣𝗹𝗲𝗮𝘀𝗲 𝗖𝗵𝗲𝗰𝗸 𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲 𝗔𝘁 -${prefix}allmenu_`
 }
 
 exports.emptyMess = () => {
-    return `❎ Please enter the message you want to convey!`
+    return `「❕」 𝗣𝗹𝗲𝗮𝘀𝗲 𝗘𝗻𝘁𝗲𝗿 𝗧𝗵𝗲 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁 𝗧𝗼 𝗖𝗼𝗻𝘃𝗲𝘆!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* not registered in *${prefix}allmenu*`
+    return `「⚠️」 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 _${cmd}_ 𝗡𝗼𝘁 𝗥𝗲𝗴𝗶𝘀𝘁𝗲𝗿𝗲𝗱 𝗜𝗻 _${prefix}allmenu_`
 }
 
 exports.ownerOnly = () => {
-    return `❎ This command is for the owner`
+    return `「❗」 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗜𝘀 𝗙𝗼𝗿 𝗧𝗵𝗲 𝗢𝘄𝗻𝗲𝗿`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️It's done, Owner ~`
+    return `「✅」 ️𝗜𝘁'𝘀 𝗗𝗼𝗻𝗲, 𝗢𝘄𝗻𝗲𝗿 ☂︎`
 }
 
 exports.groupOnly = () => {
-    return `👥  This command can only be used in groups!`
+    return `「👥」 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗖𝗮𝗻 𝗢𝗻𝗹𝗵 𝗡𝗲 𝗨𝘀𝗲𝗱 𝗜𝗻 𝗚𝗿𝗼𝘂𝗽𝘀!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  This command can only be used by group admins!`
+    return `「🙅‍♀️」 𝗧𝗵𝗶𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗖𝗮𝗻 𝗢𝗻𝗹𝘆 𝗕𝗲 𝗨𝘀𝗲𝗱 𝗕𝘆 𝗚𝗿𝗼𝘂𝗽 𝗔𝗱𝗺𝗶𝗻𝘀!`
 }
 
 exports.nhFalse = () => {
-    return `Invalid code!`
+    return `「❎」 𝗜𝗻𝘃𝗮𝗹𝗶𝗱 𝗖𝗼𝗱𝗲!`
 }
 
 exports.listBlock = (blockNumber) => {
@@ -557,15 +557,15 @@ Totally blocked: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User is not an admin! ❎`
+    return `「❎」 𝗨𝘀𝗲𝗿 𝗜𝘀 𝗡𝗼𝘁 𝗔𝗻 𝗔𝗱𝗺𝗶𝗻`
 }
 
 exports.adminAlready = () => {
-    return `❎ Cannot promote a user who is an admin!`
+    return `「❎」 𝗖𝗮𝗺𝗻𝗼𝘁 𝗣𝗿𝗼𝗺𝗼𝘁𝗲 𝗔 𝗨𝘀𝗲𝗿 𝗪𝗵𝗼 𝗜𝘀 𝗔𝗻 𝗔𝗱𝗺𝗶𝗻`
 }
 
 exports.botNotAdmin = () => {
-    return `Make bot as admin first! `
+    return `「❗」 𝗠𝗮𝗸𝗲 𝗕𝗼𝘁𝘇 𝗔𝗱 𝗔𝗱𝗺𝗶𝗻 𝗙𝗶𝗿𝘀𝘁 `
 }
 
 exports.received = (pushname) => {
@@ -575,11 +575,11 @@ Thank you for reporting, we will receive your report soon.`
 }
 
 exports.videoLimit = () => {
-    return `File size is too big!`
+    return `「❗」 𝗙𝗶𝗹𝗲 𝗦𝗶𝘇𝗲 𝗜𝘀 𝗧𝗼𝗼 𝗕𝗶𝗴`
 }
 
 exports.notNum = (q) => {
-    return `"${q}", not numbers!`
+    return `「❗」 "${q}", 𝗡𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿𝘀`
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`ฅ^•ﻌ•^ฅ\nHi Sis ${pushname} 👋 Good ${salam} , 
@@ -1552,8 +1552,11 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
+⚠︎ 𝐖𝐀𝐑𝐍𝐈𝐍𝐆 ⚠︎
+𝑁𝑜𝑡 𝐴𝑟𝑒 𝑆𝑜𝑢𝑟𝑐𝑒 𝐶𝑜𝑑𝑒, 𝑃𝑙𝑒𝑎𝑠𝑒 𝐽𝑜𝑖𝑛 𝑡𝑜 𝐺𝑟𝑜𝑢𝑝 𝐵𝑜𝑡𝑧 𝑇𝑜 𝑆𝑡𝑎𝑟𝑡 𝐵𝑜𝑡𝑧
+
 *GROUP 1 :*
-https://chat.whatsapp.com/FyzFG6U2BaeLX5Te8PDvV7
+https://chat.whatsapp.com/DTtOcmrCAkKFrVZJD6jb6M
 
 *GROUP 2 :*
 https://chat.whatsapp.com/FlUqXS0bje12Fxdw8BVykk
