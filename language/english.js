@@ -658,6 +658,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 𝔸𝕟𝕠𝕟𝕪𝕞𝕠𝕦𝕤 ℂ𝕙𝕒𝕥 」
 │• ${prefix}anonymous 
 │• ${prefix}start
+│• ${prefix}leave
 │• ${prefix}skip [daerah]
 │• ${prefix}stop [surah|ayat]
 ╰❒
@@ -2459,6 +2460,7 @@ exports.anonchat = (prefix) =>{
 	return`╭─❒ 「 𝔸𝕟𝕠𝕟𝕪𝕞𝕠𝕦𝕤 ℂ𝕙𝕒𝕥 」
 │• ${prefix}anonymous 
 │• ${prefix}start
+│• ${prefix}leave
 │• ${prefix}skip [daerah]
 │• ${prefix}stop [surah|ayat]
 ╰❒
