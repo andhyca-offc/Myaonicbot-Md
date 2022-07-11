@@ -582,14 +582,14 @@ exports.notNum = (q) => {
     return `「❗」 "${q}", 𝗡𝗼𝘁 𝗡𝘂𝗺𝗯𝗲𝗿𝘀`
 }
 exports.menunya = (salam, pushname, botname) =>{
-	return`ฅ^•ﻌ•^ฅ\nHi Sis ${pushname} 👋 Good ${salam} , 
+	return`(☞ ͡° ͜ʖ ͡°)☞\nHi Sis ${pushname} 👋 Good ${salam} , 
 I'm ${botname}, this bot is Whatsapp Multi-Device Beta.\n\n⚠︎ Please Chat With The Owner If You Find A Bug, If Your Chat Is Proven To Be Just Playing Games, Then Botz Will Block and Banned You ⚠︎\n\n♥︎^･ᴗ･^♡ Thank You ♡^･ᴗ･^♥︎
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Good ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Myaonicᵇᵒᵗᶻ-Md :*
+*📚 List-Menu 𝚂𝚑𝚒𝚛𝚘𝙱𝙾𝚃-𝙼𝙳ོ :*
 
 𝗣𝗲𝘁𝘂𝗻𝗷𝘂𝗸
 <Ⓞ︎> Berarti Features Tidak Diaktifkan Oleh Owner
@@ -635,6 +635,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │• ${prefix}public [only bot]
 │• ${prefix}del [reply pesan bot]
 │• ${prefix}setppbot [reply image]
+│• ${prefix}out
 ╰❒
 
 
@@ -689,7 +690,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 │• ${prefix}leave
 │• ${prefix}add [62***]
 │• ${prefix}kick @tag
-│• ${prefix}leave
 │• ${prefix}linkgc
 │• ${prefix}take packname|author
 │• ${prefix}group [open/close]
@@ -1634,6 +1634,7 @@ return`╭─❒ 「 𝕆𝕨𝕟𝕖𝕣 𝕄𝕖𝕟𝕦 」
 │• ${prefix}public [only bot]
 │• ${prefix}del [pesan bot]
 │• ${prefix}setppbot [reply image]
+│• ${prefix}out
 ╰❒
 `}
 
@@ -1666,7 +1667,6 @@ exports.group = (prefix) =>{
 │• ${prefix}leave
 │• ${prefix}add [62***]
 │• ${prefix}kick @tag
-│• ${prefix}leave
 │• ${prefix}linkgc
 │• ${prefix}take packname|author
 │• ${prefix}group [open/close]
