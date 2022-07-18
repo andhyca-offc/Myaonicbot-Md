@@ -56,7 +56,7 @@ Access with ${prefix}getmsg ${text}
 View list of Messages With ${prefix}listmsg`
 }
 exports.GetMsg = (prefix, command) => {
-    return `𝗘𝘅𝗮𝗺𝗽𝗹𝘀 : ${prefix + command} file name\n\nView message list with ${prefix}listmsg`
+    return `𝗘𝘅𝗮𝗺𝗽𝗹𝗲 : ${prefix + command} file name\n\nView message list with ${prefix}listmsg`
 }
 exports.NoInMsg = (text) => {
     return `'${text}' 𝗻𝗼𝘁 𝗹𝗶𝘀𝘁𝗲𝗱 𝗶𝗻 𝘁𝗵𝗲 𝗺𝗲𝘀𝘀𝗮𝗴𝗲 𝗹𝗶𝘀𝘁!`
